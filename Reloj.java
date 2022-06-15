@@ -1,6 +1,7 @@
 package Javae003;
 
 public class Reloj {
+    // control shift Alt S
     private int hora;
     private int minuto;
     private int segundos;
@@ -219,5 +220,10 @@ public class Reloj {
 
     }
 
+    public String verReloj() {
+        return String.format("[%02d", this.hora) + ":" +
+                String.format("%02d", this.minuto) + ":" +
+                String.format("%02d]", this.segundos);
+    }
 
 }
