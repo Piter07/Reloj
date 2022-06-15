@@ -22,12 +22,12 @@ public class Reloj {
         if(min >= 0 && min <=59)
             minuto = min;
         else
-            System.out.println("Los minutos estan fuera de lo permitido.");
+            System.out.println("Los minutos están fuera de lo permitido.");
 
         if(min >= 0 && min <=59)
             segundos = seg;
         else
-            System.out.println("Los segundos estan fuera de lo permitido.");
+            System.out.println("Los segundos están fuera de lo permitido.");
     }
 
     public Reloj(int seg) {
@@ -75,14 +75,14 @@ public class Reloj {
         if(minuto >= 0 && minuto <=59)
             this.minuto = minuto;
         else
-            System.out.println("Los minutos estan fuera de lo permitido.");
+            System.out.println("Los minutos están fuera de lo permitido.");
     }
 
     public void setSegundos(int segundos) {
         if(segundos >= 0 && segundos <=59)
             this.segundos = segundos;
         else
-            System.out.println("Los segundos estan fuera de lo permitido.");
+            System.out.println("Los segundos están fuera de lo permitido.");
 
     }
     public int getHora() {

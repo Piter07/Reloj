@@ -39,17 +39,17 @@ public class RelojDemo {
         for(int i = 0 ; i < 10 ; i++){
             reloj4.tick();
         }
-        System.out.println("La hora del reloj despues de sumar los 10 segundos es " + reloj4.toString());
+        System.out.println("La hora del reloj después de sumar los 10 segundos es " + reloj4.toString());
 
         reloj4.tickDecrement();
-        System.out.println("La hora del reloj despues de restar un segundo es " + reloj4.toString());
+        System.out.println("La hora del reloj después de restar un segundo es " + reloj4.toString());
 
         System.out.print("La resta del reloj 2 y reloj 4 es: " + reloj2.toString());
         Reloj a = new Reloj(02,15,23);
         reloj2.restaReloj(a);
         System.out.println(" - " + a.toString() + " = " + reloj2.toString() );
 
-
+        System.out.println("Para que lo que me rechazas kp");
 
 
 
