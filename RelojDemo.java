@@ -49,7 +49,7 @@ public class RelojDemo {
         reloj2.restaReloj(a);
         System.out.println(" - " + a.toString() + " = " + reloj2.toString() );
 
-
+        System.out.println("Para que lo que me rechazas kp");
 
 
 
