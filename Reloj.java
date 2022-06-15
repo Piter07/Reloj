@@ -10,7 +10,7 @@ public class Reloj {
         minuto = 0;
         segundos = 0;
     }
-
+      //holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
     public Reloj(int hor, int min, int seg) {
         if(hor >= 0 && hor <=23)
             hora = hor;
@@ -22,11 +22,13 @@ public class Reloj {
         if(min >= 0 && min <=59)
             minuto = min;
         else
+            System.out.println("            System.out.println(\"F\");\n");
             System.out.println("Los minutos están fuera de lo permitido.");
 
         if(min >= 0 && min <=59)
             segundos = seg;
         else
+            System.out.println("F");
             System.out.println("Los segundos están fuera de lo permitido.");
     }
 
@@ -216,4 +218,6 @@ public class Reloj {
         this.segundos = segundos;
 
     }
+
+
 }
